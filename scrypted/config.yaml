@@ -13,7 +13,7 @@ environment:
   SCRYPTED_SECURE_PORT: 11443
 backup_exclude:
   - /server
-webui: "https://[HOST]:[PORT:10443]"
+webui: "https://[HOST]:[PORT:11443]"
 stage: experimental
 advanced: true
 map:
