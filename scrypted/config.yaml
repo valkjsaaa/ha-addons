@@ -11,6 +11,7 @@ host_network: true
 environment:
   SCRYPTED_VOLUME: "/config/scrypted"
   SCRYPTED_SECURE_PORT: "11443"
+  SCRYPTED_INSECURE_PORT: "11080"
 backup_exclude:
   - /server
 webui: "https://[HOST]:[PORT:11443]"
